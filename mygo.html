@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mygo</title>
+        <meta charset="utf-8">
+ 
+        <script src="http://requirejs.org/docs/release/2.1.15/comments/require.js"></script>
+        <script src="scripts/rjs-config.js"></script>
+
+        
+        <link rel="stylesheet" href="" />
+
+        <style>
+        .editor {
+            border: 1px solid black;
+            min-height: 12rem;
+            width: 100%;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="toolbar">
+            <button class="action-bold">Bold</button>
+            <div class="action-italic">Italic</div>
+        </div>
+        <div class="editor" contentEditable="true"></div>
+        <div><textarea id="content" name="content"></textarea></div>
+
+        
+    </body>
+    <script src="scripts/main.js"></script>
+</html>
